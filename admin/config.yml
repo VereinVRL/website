@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: dasrecht/vrl
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "images" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - label: "Posts"
+    name: "post"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" , format: "YYYY-MM-DD hh:mma"}
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: Post Author
+        name: author
+        widget: relation
+        collection: team
+        searchFields: [name, twitter]
+        valueField: name
+  - label: "Team"
+    name: "team"
+    folder: "_staff_members"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Position", name: "position", widget: "string"}
+      - { label: "Image", name: "image", widget: "image", default: "/images/wooly.jpg" }
+      - { label: "Funktion", name: funktion, widget: "string" }
+      - { label: "Body", name: body, widget: markdown }
+      - { label: "Twitter", name: twitter, widget: "string" }
+
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "GeneralInformation"
+        name: "general"
+        file: "_data/campaign.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: campaign_name, name: campaign_name, widget: markdown}
+          - {label: mission_statement, name: mission_statement, widget: markdown}
+          - {label: address, name: address, widget: markdown}
+          - {label: email, name: email, widget: markdown}
+          - {label: facebook, name: facebook, widget: markdown}
+          - {label: twitter, name: twitter, widget: markdown}
