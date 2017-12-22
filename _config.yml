@@ -60,6 +60,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - package-lock.json
+  - _config.yml
 
 # -----------
 # CloudCannon
