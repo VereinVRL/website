@@ -32,7 +32,6 @@ collections:
       - { label: "Name", name: "title", widget: "string" }
       - { label: "Position", name: "position", widget: "string"}
       - { label: "Image", name: "image", widget: "image", default: "/images/wooly.jpg" }
-      - { label: "Funktion", name: funktion, widget: "string" }
       - { label: "Body", name: body, widget: markdown }
       - { label: "Twitter", name: twitter, widget: "string" }
 
