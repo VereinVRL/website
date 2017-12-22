@@ -1,4 +1,4 @@
 ---
 name: Bastian
-image: /images/bastian.jpg
+image: /images/bastian-widmer.jpg
 ---

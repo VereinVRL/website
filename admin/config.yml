@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: dasrecht/vrl
+  repo: VereinVRL/website
   branch: master
 
 publish_mode: editorial_workflow
