@@ -93,7 +93,7 @@ newsletter_background_image: https://source.unsplash.com/c8ET5XvBwnU/1880x1240?a
 				<div class="post-title">
 					<img src="{% include relative-src.html src=author.image %}" alt="Photo of {{ author.name }}" width="50" height="50" />
 					<h3>{{ post.title }}</h3>
-					<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+					<p class="date">{{ author.name }} - {{ post.date | date: '%d. %B %Y' }}</p>
 				</div>
 				{{ post.content }}
 			</div>
