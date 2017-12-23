@@ -62,9 +62,7 @@ exclude:
   - LICENCE
   - package-lock.json
   - _config.yml
-
-# -----------
-# CloudCannon
+  - .gitignore
 
 _options:
   header_background_image:
