@@ -86,7 +86,6 @@ newsletter_background_image: https://source.unsplash.com/c8ET5XvBwnU/1880x1240?a
 <section>
 	<div class="container">
 		<h2>Updates</h2>
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
 		{% for post in site.posts %}
 			{% assign author_id = post.author_staff_member | prepend: "/staff_members/" | append: "/" %}
 			{% assign author = site.staff_members | where: "url", author_id | first %}
@@ -97,7 +96,6 @@ newsletter_background_image: https://source.unsplash.com/c8ET5XvBwnU/1880x1240?a
 					<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
 				</div>
 				{{ post.content }}
-				<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
 			</div>
 		{% endfor %}
 	</div>
