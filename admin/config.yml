@@ -34,7 +34,6 @@ collections:
       - { label: "Image", name: "image", widget: "image", default: "/images/wooly.jpg" }
       - { label: "Body", name: body, widget: markdown }
       - { label: "Twitter", name: twitter, widget: "string" }
-      - { label: "Instagram", name: instagram, widget: "string" }
 
   - label: "Pages"
     name: "pages"
@@ -43,10 +42,11 @@ collections:
         name: "general"
         file: "_data/campaign.yml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: campaign_name, name: campaign_name, widget: markdown}
-          - {label: mission_statement, name: mission_statement, widget: markdown}
-          - {label: address, name: address, widget: markdown}
-          - {label: email, name: email, widget: markdown}
-          - {label: facebook, name: facebook, widget: markdown}
-          - {label: twitter, name: twitter, widget: markdown}
+          - {label: Title, name: title, widget: string }
+          - {label: campaign_name, name: campaign_name, widget: string }
+          - {label: mission_statement, name: mission_statement, widget: string }
+          - {label: address, name: address, widget: string }
+          - {label: email, name: email, widget: string }
+          - {label: facebook, name: facebook, widget: string }
+          - {label: twitter, name: twitter, widget: string }
+          - { label: "Instagram", name: instagram, widget: string }
