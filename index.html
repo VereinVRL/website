@@ -15,17 +15,7 @@ newsletter_background_image: https://images.unsplash.com/photo-1505767297988-6d5
 
 {% include weitere-informationen.html %}
 {% include quote.html %}
-
-<section class="newsletter" style="background-image: url({% include relative-src.html src=page.newsletter_background_image %}); background-size: 100%; background-position-y: -482px;">
-  <div class="container">
-    <h2>Informiert bleiben</h2>
-    <p>Informationen zu unserer Kampagne verschicken über unseren Newsletter.</p>
-    <form action="{{ site.newsletter_action }}" method="post">
-      <input type="text" name="EMAIL" placeholder="Email">
-      <input type="submit" value="Anmelden"/>
-    </form>
-  </div>
-</section>
+{% include updates.html %}
 
 <section id="donate">
   <div class="container">
@@ -49,5 +39,16 @@ newsletter_background_image: https://images.unsplash.com/photo-1505767297988-6d5
   <div class="container">
     {% include ueberuns.html %}
     </div>
+  </div>
+</section>
+
+<section class="newsletter" style="background-image: url({% include relative-src.html src=page.newsletter_background_image %}); background-size: 100%; background-position-y: -482px;">
+  <div class="container">
+    <h2>Informiert bleiben</h2>
+    <p>Informationen zu unserer Kampagne verschicken über unseren Newsletter.</p>
+    <form action="{{ site.newsletter_action }}" method="post">
+      <input type="text" name="EMAIL" placeholder="Email">
+      <input type="submit" value="Anmelden"/>
+    </form>
   </div>
 </section>
