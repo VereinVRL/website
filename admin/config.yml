@@ -21,7 +21,7 @@ collections:
         name: author_staff_member
         widget: relation
         collection: team
-        searchFields: [title, twitter]
+        searchFields: [title, name]
         valueField: slug
   - label: "Team"
     name: "team"
