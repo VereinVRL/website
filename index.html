@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Rette deine Lieblingssendung
-header_background_image: https://images.unsplash.com/photo-1463421585849-6b0acf2c9257?auto=format&fit=crop&w=2166&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
-header_background_image: https://images.unsplash.com/photo-1467293622093-9f15c96be70f?auto=format&fit=crop&w=2550&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 header_background_image: https://images.unsplash.com/photo-1499534342700-68e9bd77b520?auto=format&fit=crop&w=2167&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 newsletter_background_image: https://images.unsplash.com/photo-1505767297988-6d5da4a1730c?auto=format&fit=crop&w=1200&q=10
 ---
@@ -15,32 +13,9 @@ newsletter_background_image: https://images.unsplash.com/photo-1505767297988-6d5
 	<div class="learn-more"><a href="#learn-more">Weitere informationen <span class="arrow">&#x25BC;</span></a></div>
 </header>
 
-<section id="learn-more">
-	<div class="container">
-		{% include home.html %}
-	</div>
-</section>
 
-<!-- <section>
-	<div class="container mission">
-		<h2>Our Mission</h2>
-		<p><img src="https://source.unsplash.com/9fQDKybDgqk/200x134" alt="Sheep" width="200" height="134">Leave no sheep behind. Our mission to give sheep the right to vote and have them represented in parliament. For too long sheep have been exploited for their warm wool and delicious meat. It's time to put our hooves down and baa for what's right. Give sheep the vote!</p>
-	</div>
-</section> -->
-
-<!-- <section>
-	<div class="container">
-		<blockquote>
-			<p class="quote">The ultimate measure of a sheep is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.</p>
-			<div class="attribute">
-				<p class="meta">
-					<span class="author"><strong>Wooly McBaa</strong><br />Founder</span>
-					<span class="image"><img src="{{ site.baseurl }}/images/wooly.jpg" alt="Wooly"></span>
-				</p>
-			</div>
-		</blockquote>
-	</div>
-</section> -->
+		{% include learn-more.html %}
+		{% include quote.html %}
 
 <section class="newsletter" style="background-image: url({% include relative-src.html src=page.newsletter_background_image %}); background-size: 100%; background-position-y: -482px;">
 	<div class="container">
@@ -77,23 +52,3 @@ newsletter_background_image: https://images.unsplash.com/photo-1505767297988-6d5
 		</div>
 	</div>
 </section>
-
-
-
-<!-- <section>
-	<div class="container">
-		<h2>Updates</h2>
-		{% for post in site.posts %}
-			{% assign author_id = post.author_staff_member | prepend: "/staff_members/" | append: "/" %}
-			{% assign author = site.staff_members | where: "url", author_id | first %}
-			<div class="post">
-				<div class="post-title">
-					<img src="{% include relative-src.html src=author.image %}" alt="Photo of {{ author.name }}" width="50" height="50" />
-					<h3>{{ post.title }}</h3>
-					<p class="date">{{ author.name }} - {{ post.date | date: '%d. %B %Y' }}</p>
-				</div>
-				{{ post.content }}
-			</div>
-		{% endfor %}
-	</div>
-</section> -->
