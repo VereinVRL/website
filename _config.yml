@@ -8,15 +8,15 @@ google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a not-for-profit organisation.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: Verein für die Rettung meiner Lieblingssendung
+# author:
+#   name:
+#   email:
+#   twitter: # twitter username without the @ symbol
 social:
-  name: Cause Template
+  name: Verein für die Rettung meiner Lieblingssendung
   links:
-    - https://github.com/CloudCannon/cause-jekyll-template
+    - http://twitter.com/lieblingssendung
 
 # -----
 # Build
