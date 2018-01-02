@@ -1,0 +1,32 @@
+---
+layout: default
+title: Kontakt
+---
+
+<section>
+  <div class="container">
+    <h2>Kontakt</h2>
+      <div class="kontakt">
+        <form name="kontaktformular_de" netlify-honeypot="bot-field" action="danke" netlify>
+            <p class="hidden">
+              <label>Don’t fill this out: <input name="bot-field"></label>
+            </p>
+
+            <p class="contact-input">
+              <input type="text" name="name" placeholder="Dein Name" autofocus>
+            </p>
+            <p class="contact-input">
+              <input type="text" name="email" placeholder="E-Mail Adresse" autofocus>
+            </p>
+
+            <p class="contact-input">
+              <textarea name="message" placeholder="Deine Nachricht"></textarea>
+            </p>
+
+            <p class="contact-submit">
+              <input type="submit" value="Nachricht verschicken">
+            </p>
+        </form>
+      </div>
+  </div>
+</section>
