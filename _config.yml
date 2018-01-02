@@ -48,7 +48,7 @@ defaults:
     values:
       layout: "default"
 
-donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/give-sheep-the-vote?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
+donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/cc502905-0b4b-4c97-83ee-01a5da297747" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"></iframe>'
 newsletter_action: "//meinelieblingssendung.us17.list-manage.com/subscribe/post?u=f73f0d530951cfdb82ddd191d&amp;id=0db7fe5366"
 
 gems:
