@@ -22,7 +22,7 @@ collections:
         widget: relation
         collection: team
         searchFields: [title, name]
-        valueField: slug
+        valueField: title
   - label: "Team"
     name: "team"
     folder: "_staff_members"
