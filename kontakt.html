@@ -4,25 +4,29 @@ title: Kontakt
 ---
 
 <section>
-	<div class="container">
-		<h2 class="editable">Kontakt</h2>
-			<div class="post">
+  <div class="container">
+    <h2>Kontakt</h2>
+      <div class="kontakt">
+        <form name="kontaktformular_de" netlify-honeypot="bot-field" action="danke" netlify>
+            <p class="hidden">
+              <label>Don’t fill this out: <input name="bot-field"></label>
+            </p>
 
-				<form name="contact" netlify>
-				  <p>
-				    <label>Your Name: <input type="text" name="name"></label>
-				  </p>
-				  <p>
-				    <label>Your Email: <input type="email" name="email"></label>
-				  </p>
-				  <p>
-				    <label>Message: <textarea name="message"></textarea></label>
-				  </p>
-				  <p>
-				    <button type="submit">Send</button>
-				  </p>
-				</form>
+            <p class="contact-input">
+              <input type="text" name="name" placeholder="Dein Name" autofocus>
+            </p>
+            <p class="contact-input">
+              <input type="text" name="email" placeholder="E-Mail Adresse" autofocus>
+            </p>
 
-			</div>
-	</div>
+            <p class="contact-input">
+              <textarea name="message" placeholder="Deine Nachricht"></textarea>
+            </p>
+
+            <p class="contact-submit">
+              <input type="submit" value="Nachricht verschicken">
+            </p>
+        </form>
+      </div>
+  </div>
 </section>
