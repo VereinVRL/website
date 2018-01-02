@@ -5,50 +5,50 @@ header_background_image: https://images.unsplash.com/photo-1499534342700-68e9bd7
 newsletter_background_image: https://images.unsplash.com/photo-1505767297988-6d5da4a1730c?auto=format&fit=crop&w=1200&q=10
 ---
 <header style="background-image: url({% include relative-src.html src=page.header_background_image %});">
-	<div class="container">
-		<h1>Rette deine Lieblingssendung</h1>
-		<div class="button"><a href="#donate">Aktion unterstützen</a></div>
-		<div class="button"><a href="#fahnebestellen">Fahne bestellen</a></div>
-	</div>
-	<div class="learn-more"><a href="#learn-more">Weitere informationen <span class="arrow">&#x25BC;</span></a></div>
+  <div class="container">
+    <h1>Rette deine Lieblingssendung</h1>
+    <div class="button"><a href="#donate">Aktion unterstützen</a></div>
+    <div class="button"><a href="#fahnebestellen">Fahne bestellen</a></div>
+  </div>
+  <div class="learn-more"><a href="#learn-more">Weitere informationen <span class="arrow">&#x25BC;</span></a></div>
 </header>
 
 
-		{% include learn-more.html %}
-		{% include quote.html %}
+    {% include learn-more.html %}
+    {% include quote.html %}
 
 <section class="newsletter" style="background-image: url({% include relative-src.html src=page.newsletter_background_image %}); background-size: 100%; background-position-y: -482px;">
-	<div class="container">
-		<h2>Informiert bleiben</h2>
-		<p>Informationen zu unserer Kampagne verschicken über unseren Newsletter.</p>
-		<form action="{{ site.newsletter_action }}" method="post">
-			<input type="text" name="EMAIL" placeholder="Email">
-			<input type="submit" value="Anmelden"/>
-		</form>
-	</div>
+  <div class="container">
+    <h2>Informiert bleiben</h2>
+    <p>Informationen zu unserer Kampagne verschicken über unseren Newsletter.</p>
+    <form action="{{ site.newsletter_action }}" method="post">
+      <input type="text" name="EMAIL" placeholder="Email">
+      <input type="submit" value="Anmelden"/>
+    </form>
+  </div>
 </section>
 
 <section id="donate">
-	<div class="container">
-		<h2>Spenden</h2>
-		<div class="donate">
-			{% include donnation.html %}
-			{{ site.donation_embed }}
-		</div>
-	</div>
+  <div class="container">
+    <h2>Spenden</h2>
+    <div class="donate">
+      {% include donnation.html %}
+      {{ site.donation_embed }}
+    </div>
+  </div>
 </section>
 
 <section id="fahnebestellen">
-	<div class="container">
-		<h2>Fahne bestellen</h2>
-		{% include fahne.html %}
-		</div>
-	</div>
+  <div class="container">
+    <h2>Fahne bestellen</h2>
+    {% include fahne.html %}
+    </div>
+  </div>
 </section>
 
 <section id="ueberuns">
-	<div class="container">
-		{% include ueberuns.html %}
-		</div>
-	</div>
+  <div class="container">
+    {% include ueberuns.html %}
+    </div>
+  </div>
 </section>
