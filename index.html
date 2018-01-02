@@ -18,27 +18,7 @@ newsletter_background_image: https://images.unsplash.com/photo-1505767297988-6d5
 
 <section id="learn-more">
 	<div class="container">
-		<h2>Why Sheep need the vote</h2>
-
-		<ul class="thirds">
-			<li>
-				<div class="image"><img alt="population" src="{{ site.baseurl }}/images/people.svg" /></div>
-				<h3>Population</h3>
-				<p>New Zealand has a human population of just 4.5M while there are 70M sheep. </p>
-			</li>
-
-			<li>
-				<div class="image"><img alt="trends" src="{{ site.baseurl }}/images/trend.svg" /></div>
-				<h3>Economy</h3>
-				<p>Sheep are the backbone of the economy yet they receive no compensation.</p>
-			</li>
-
-			<li>
-				<div class="image"><img alt="conditions" src="{{ site.baseurl }}/images/heart.svg" /></div>
-				<h3>Work Conditions</h3>
-				<p>Sheep are forced to eat grass every day of their life. How about some of variety?</p>
-			</li>
-		</ul>
+		{% include home.html %}
 	</div>
 </section>
 
@@ -76,9 +56,18 @@ newsletter_background_image: https://images.unsplash.com/photo-1505767297988-6d5
 
 <section id="donate">
 	<div class="container">
-		<h2>Make a donation</h2>
+		<h2>Spenden</h2>
 		<div class="donate">
+			{% include donnation.html %}
 			{{ site.donation_embed }}
+		</div>
+	</div>
+</section>
+
+<section id="fahnebestellen">
+	<div class="container">
+		<h2>Fahne bestellen</h2>
+		{% include fahne.html %}
 		</div>
 	</div>
 </section>
