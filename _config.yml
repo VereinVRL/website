@@ -2,21 +2,15 @@
 # Site
 
 title: Rette deine Lieblingssendung!
-url: https://meinelieblingssendung.ch
+url: https://beta.meinelieblingssendung.ch
 # baseurl:
 google_analytics_key: UA-111853210-1
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /touch-icon.png
+logo: /apple-touch-icon.png
+image: /apple-touch-icon.png
 description: Verein für die Rettung meiner Lieblingssendung
-# author:
-#   name:
-#   email:
-#   twitter: # twitter username without the @ symbol
-social:
-  name: Verein für die Rettung meiner Lieblingssendung
-  links:
-    - http://twitter.com/sendung_bleibt
+twitter:username: sendung_bleibt
 
 # -----
 # Build
