@@ -4,7 +4,6 @@ layout: compress
 <!doctype html>
 <html>
   <head>
-    {% seo %}
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
@@ -20,6 +19,7 @@ layout: compress
         gtag('config', '{{ site.google_analytics_key }}');
       </script>
     {% endif %}
+    {% seo %}
   </head>
 
   <body>
