@@ -64,6 +64,8 @@ exclude:
   - _config.yml
   - .gitignore
   - netlify.toml
+  - node_modules
+  - LICENSE
 
 _options:
   header_background_image:
