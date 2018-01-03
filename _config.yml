@@ -7,7 +7,7 @@ google_analytics_key: UA-111853210-1
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /apple-touch-icon.png
-image: /apple-touch-icon.png
+image: https://beta.meinelieblingssendung.ch/apple-touch-icon.png
 description: Verein für die Rettung meiner Lieblingssendung
 twitter:
   username: sendung_bleibt
