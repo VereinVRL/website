@@ -63,6 +63,7 @@ exclude:
   - package-lock.json
   - _config.yml
   - .gitignore
+  - netlify.toml
 
 _options:
   header_background_image:
