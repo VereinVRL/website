@@ -71,3 +71,13 @@ _options:
   newsletter_background_image:
     width: 1880
     height: 1880
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  ignore:
+    envs: []
+  blanklines: true
+  profile: false
+  startings: []
