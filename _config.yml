@@ -2,8 +2,8 @@
 # Site
 
 title: Rette deine Lieblingssendung!
-url: https://clean-oryx.cloudvent.net
-baseurl:
+url: https://meinelieblingssendung.ch
+# baseurl:
 google_analytics_key: UA-111853210-1
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
