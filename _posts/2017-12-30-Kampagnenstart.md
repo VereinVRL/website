@@ -3,4 +3,6 @@ title: Kampagnenstart
 date: '2016-11-30 01:00am'
 author_staff_member: lukas-wegmueller
 ---
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Am 08.01.2018 ist unsere Kampagne „Rette deine Lieblingssendung“ gegen die NoBillag- Initiative gestartet. Wir freuen uns, möglichst bald, möglichst viele unserer Fahnen hängen zu sehen! Denn je mehr, desto besser und desto sichtbarer wird die Unterstützung öffentlicher Medien in allen Landesteilen. 
+
+Hilf mit und bestellt direkt eine Fahne bei uns!
