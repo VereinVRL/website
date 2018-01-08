@@ -61,6 +61,9 @@ exclude:
   - node_modules
   - LICENSE
 
+include:
+  - _redirects
+
 _options:
   header_background_image:
     width: 1880
