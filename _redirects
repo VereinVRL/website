@@ -1,4 +1,9 @@
 # Redirect domain aliases to primary domain
 https://meine-lieblingssendung.ch/* https://meinelieblingssendung.ch/:splat 301!
 https://www.meine-lieblingssendung.ch/* https://meinelieblingssendung.ch/:splat 301!
-https://meinelieblingssendung.ch/* https://meinelieblingssendung.ch/:splat 301!
+https://beta.meinelieblingssendung.ch/* https://meinelieblingssendung.ch/:splat 301!
+https://monemissionpreferee.ch/* https://meinelieblingssendung.ch/:splat 301!
+https://xn--monmissionprfere-dqbjd.ch/* https://meinelieblingssendung.ch/:splat 301!
+https://www.meinelieblingssendung.ch/* https://meinelieblingssendung.ch/:splat 301!
+https://www.monemissionpreferee.ch/* https://meinelieblingssendung.ch/:splat 301!
+https://www.xn--monmissionprfere-dqbjd.ch/* https://meinelieblingssendung.ch/:splat 301!
