@@ -95,12 +95,13 @@ blockquote {
 .newsletter {
   padding: 100px 0;
   color: #fff;
-  text-shadow: 1px 1px 1px #000;
-
+  text-shadow: 0 0 15px rgba(47,52,67,.2), 0 0 50px rgba(47,52,67,.4);
   p {
   text-align: center;
   }
-
+  h2 {
+    letter-spacing: 0.05em;
+  }
 }
 
 footer {
