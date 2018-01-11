@@ -1,8 +1,8 @@
 ---
-title: Produktion läuft!
+title: 'Tag 3: Merci!'
 date: '2018-01-11 01:07pm'
 author_staff_member: bastian
 ---
-Wir sind überwältigt ab dem zuspruch welche unsere Aktion erhält! Danke für alle Kommentare, Mails, Tweets und direkten danksagungen. 
+Vielen Dank für die vielen Nachrichten, Kontaktaufnahmen und Unterstützung, wir freuen uns sehr über den erfolgreichen Start unserer Kampagne! Wir tun zurzeit unser Bestes, die noch fehlenden Sendungen aufzunehmen und zu ergänzen! Und wir freuen uns, möglichst bald möglichst viele Fahnen im Wind wähen zu sehen! 
 
-Keine Sorge, wir haben vorausgeplant und unsere Produktion läuft wie geplant, erste Fahnen wurden schon verschickt!
+Deshalb: Bitte helft uns mit und macht Werbung für unsere Kampagne, nur so schaffen wir es, unsere Lieblingssendungen zu retten!
