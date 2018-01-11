@@ -1,5 +1,5 @@
 ---
 title: julie
-image: /images/wooly.jpg
+image: /images/julie.jpg
+name: Julie
 ---
-
