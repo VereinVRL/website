@@ -1,7 +1,7 @@
 ---
 title: 'Tag 3: Merci!'
 date: '2018-01-11 01:07pm'
-author_staff_member: bastian
+author_staff_member: julie
 ---
 Vielen Dank für die vielen Nachrichten, Kontaktaufnahmen und Unterstützung, wir freuen uns sehr über den erfolgreichen Start unserer Kampagne! Wir tun zurzeit unser Bestes, die noch fehlenden Sendungen aufzunehmen und zu ergänzen! Und wir freuen uns, möglichst bald möglichst viele Fahnen im Wind wähen zu sehen! 
 
