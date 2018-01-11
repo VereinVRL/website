@@ -1,5 +1,5 @@
 ---
 title: julie
-image: /images/julie.jpg
+image: /images/julie.png
 name: Julie
 ---
