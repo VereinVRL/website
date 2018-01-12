@@ -7,7 +7,7 @@ Die Fahnenproduktion bei unserer Druckerei Flagprint in Bern läuft auf Hochtour
 
 Oft gewünschte Fahnen sind nun im Shop unter der Kategorie [Neu hinzugefügt](https://fahne.meinelieblingssendung.ch/collections/neu-hinzugefugt) zu finden.
 
-Folgend noch einige Bilder direkt aus unserer Fahnenproduktion
+Folgend noch einige Bilder direkt aus unserer Fahnenproduktion:
 
 ![null](/images/IMG_0308.jpg)
 
