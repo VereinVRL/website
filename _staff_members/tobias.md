@@ -1,5 +1,5 @@
 ---
-title: Tobias
-image: /images/wooly.jpg
+title: tobias
+image: /images/tobias.jpg
+name: Tobias
 ---
-
