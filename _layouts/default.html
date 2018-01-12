@@ -26,9 +26,9 @@ layout: compress
   <body>
     <nav>
       <div class="container">
-        <a href="{{ site.baseurl }}/#top"><img src="{{ site.baseurl }}/images/logo.svg" height="40"/></a>
-        <div class="button"><a href="/#fahnebestellen">Fahne bestellen</a></div>
-        <div class="button"><a href="/#spenden">Aktion unterstützen</a></div>
+        <a href="{{ site.baseurl }}/#top"><img src="{{ site.baseurl }}/images/logo_{{ page.lang_prefix }}.svg" height="40"/></a>
+        <div class="button"><a href="/#fahnebestellen">{{page.txt_fahnebestellen}}</a></div>
+        <div class="button"><a href="/#spenden">{{page.txt_aktionunterstuetzen}}</a></div>
       </div>
     </nav>
     <div class="content" id="top">
@@ -61,7 +61,7 @@ layout: compress
           </a>
         </p>
         <p class="imprint">
-        <a href="impressum">Made in 🇨🇭</a>
+        <a href="/impressum">Made in 🇨🇭</a>
         </p>
         </div>
       </div>
