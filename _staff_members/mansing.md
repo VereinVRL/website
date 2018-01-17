@@ -1,5 +1,5 @@
 ---
 title: mansing
-image: /images/wooly.jpg
+image: /images/mansing.jpg
+name: Mansing
 ---
-

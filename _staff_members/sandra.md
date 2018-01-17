@@ -1,5 +1,5 @@
 ---
 title: sandra
-image: /images/wooly.jpg
+image: /images/sandra.jpg
+name: Sandra
 ---
-
