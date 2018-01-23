@@ -1,5 +1,5 @@
 ---
 title: mimi
-image: /images/wooly.jpg
+image: /images/mimi.jpg
+name: Mimi
 ---
-
